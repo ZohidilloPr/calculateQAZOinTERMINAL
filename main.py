@@ -48,7 +48,7 @@ def survey():
         if jins == 'erkak':    
             a['y'] += 12 
         elif jins == 'ayol':
-            a['y'] += 8 
+            a['y'] += 9 
         else:
             print('bunday tanlov yoq')
             survey()
@@ -80,7 +80,7 @@ def survey():
                 timer()
                 l = input(f'Nimani Unitganizni aytaymi ? {name} xa/yoq ')
                 if l == 'xa':
-                    print('Istifforni....')
+                    print('Istixfforni....')
                 elif l == 'yoq':
                     print(f'Mayli Nima ham deya olardik Bilimdon {name.upper()}ga :] ')    
             elif m == 'yoq':
